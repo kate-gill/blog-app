@@ -1,0 +1,391 @@
+/* main */
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+#mainContainer {
+    min-height: 93.5vh;
+}
+
+main {
+    padding: 25px;
+    padding-bottom: 80px;
+    margin-top: 15px;
+}
+
+/* background */
+
+nav, .card-header, .footCard, .frontFooter, footer {
+    background: #5bb6c5;  
+    background: -webkit-linear-gradient(to right, #C4E0E5, #5bb6c5);  
+    background: linear-gradient(to right, #C4E0E5, #5bb6c5); 
+    color: white;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+}
+
+.list-group-item-warning {
+    background-color: #ffeeba;
+}
+
+.list-group-item-danger {
+    background-color: #f5c6cb;
+}
+
+/* post container (index page) */
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+
+/* pop-up messages */
+
+.alert {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.alert p {
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+}
+
+
+/* navbar */
+
+
+li a, .date, .text-muted, .likesLink {
+    color: white !important;
+}
+
+li a:hover {
+    color: #264363 !important;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+li {
+    padding: 25px;
+}
+
+li a {
+    padding: 25px;
+    font-size: larger;
+}
+
+/* buttons/links */
+
+a {
+    color: #264363;
+    padding: 2px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #3a3e42;
+}
+
+button {
+    margin: 5px;
+}
+
+button, button a, button a:hover {
+    color: white !important;
+    outline: none;
+}
+
+.postbtn {
+    margin: 5px;
+}
+
+.btn-primary {
+    background: #3188e4;
+    border-color: #3188e4;
+}
+
+.date, .btnComment {
+    float: right;
+}
+
+.link {
+    padding: 0;
+}
+
+/* images */
+
+.mainImg {
+    max-width: 20em;
+    margin-bottom: 25px;
+}
+
+.postImg {
+    max-width: 35rem;
+}
+
+.profileImg {
+    max-width: 20rem;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* comments section */
+
+.commentBox {
+    max-width: 60%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.comment {
+    width: 40%;
+    resize: none;
+    height: 100px;
+}
+
+.nocomment {
+    font-size: small;
+}
+
+/* likes */
+
+.likes {
+    display: contents;
+    font-size: medium;
+}
+
+.likesCard {
+    width: 20%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.btnLike {
+    margin-left: 15px;
+}
+
+/* card header */
+
+.card-header {
+    margin-bottom: 25px;
+}
+
+.postMain {
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+
+.topCard {
+    padding: 20px;
+    padding-bottom: 5px;
+    font-size: small;
+}
+
+/* cards main (posts) */
+
+.cardWrap {
+    max-width: 40rem;
+    margin: auto;
+    padding: 50px;
+    margin-top: 35px;
+    padding-bottom: 20px;
+}
+
+.addPost {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.cardMain {
+    width: 80%;
+    margin: auto;
+}
+
+.card-body, .card-footer {
+    color: #3e3939;
+}
+
+/* cards footer */
+
+.footCard {
+    font-size: small;
+}
+
+/* registration/login forms */
+
+input {
+    padding: 5px;
+}
+
+input, textarea {
+    outline: none;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+}
+
+.mainForm {
+    padding-bottom: 25px;
+}
+
+.form-text {
+    color: #3e3939 !important;
+    padding-top: 12px;
+}
+
+/* text styling */
+
+h5 {
+    margin: 15px;
+}
+
+.author {
+    font-weight: 500;
+    float: left;
+    font-size: smaller;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.titleHeader {
+    padding: 20px;
+    padding-bottom: 2px;
+}
+
+.header {
+    margin-bottom: 25px;
+}
+
+.text-muted {
+    font-size: smaller;
+}
+
+.text {
+    max-height: 6em; 
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+}
+
+
+/* icons */
+
+i  {
+    padding: 5px;
+    margin-right: 3px;
+}
+
+.fa-user {
+    float: left;
+    margin-right: 10px;
+}
+
+/* footer */
+
+.footer {
+    margin: 0;
+    padding: 15px;
+    font-size: small;
+}
+
+footer {
+    padding: 5px;
+}
+
+/* @media*/
+
+@media screen and (max-width: 890px) {
+
+    .commentBox {
+        min-width: 88%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .text {
+        max-height: 4.5em; 
+    }
+
+    .comment {
+        min-width: 60%;
+    }
+  
+}
+
+@media screen and (max-width: 730px) {
+
+    .container {
+        min-width: 350px;
+        margin: 0 auto !important;
+    }
+
+    .btnLike {
+        float: right;
+    }
+
+    .date {
+        padding: 5px;
+    }
+
+    .mainImg {
+        max-width: 15rem;
+    }
+  
+}
+ 
+@media screen and (max-width: 650px) {
+
+    .cardMain {
+        min-width: 400px;
+    }
+  
+    .postImg {
+        max-width: 20rem;
+    }
+
+    .mainImg {
+        max-width: 15rem;
+    }
+
+    .titleHeader{
+        padding: 18px;
+    }
+
+    .commentBox {
+        min-width: 66%;
+    }
+
+    .btnComment {
+        margin-top: 20px;
+    }
+    
+}
