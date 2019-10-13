@@ -10,7 +10,7 @@ Forgotten password reset can be requested via email that was registered in the s
 
 Gmail account information and Database passwords are replaced with placeholders (db.php file on lines 14-17 and 194-195).
 
-The deployed version could be seen here:
+The deployed version can be seen here:
 
 https://kates-blog-app.herokuapp.com/
 
